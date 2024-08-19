@@ -1,0 +1,35 @@
+<title>application form</title>
+<body>
+    <link rel="stylesheet" href="form.css">
+    <h1>APPLICATION FORM</h1>
+<form action="form.php" method="post">
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+<input type="text" name="first name" id="first name" placeholder="FIRST NAME" required>
+<input type="text" name="surname" id="surname" placeholder="SURNAME" required><br><br>
+DATE OF BIRTH<input type="date" name="dob" id="dob" required> <input type="tel" name="phone" id="phone" placeholder="PHONE NUMBER" required><br><br>
+<select name="gender">
+    <option value="m">MALE</option>
+    <option value="f">FEMALE</option>
+    <option value="o">OTHER</option>
+</select>
+<input type="address" name="address" id="address" placeholder="ADDRESS" required>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend>NEXT OF KIN</legend>
+    <input type="text" name="fname" id="fname" placeholder="FULL NAME" required><input type="address" placeholder="ADDRESS" name="nok address" id="nok address" required><br><br>
+    <input type="tel" name="nok phone" id="nok phone" placeholder="PHONE NUMBER" required><input type="email" id="nok email" name="nok email" placeholder="EMAIL" required><br><br>
+
+</fieldset><br><br>
+<fieldset>
+    <legend>EDUCATIONAL HISTORY</legend>
+<input type="text" name="primary" id="primary" placeholder="PRIMARY"><input type="text" name="ssce" id="ssce" placeholder="SECONDARY SCHOOL NAME" required><br><br>
+<input type="text" name="indigin" id="indigin" placeholder="INDIGIN" required>
+</fieldset>
+<br><br>
+<input type="checkbox" class="ch"> once you submit you may no longer able to edit<br><br>
+<button type="reset" class="res">Reset Information</button>
+<button type="submit" class="sub">SUBMIT APPLICATION</button>
+</form>
+</body>

@@ -1,0 +1,30 @@
+
+h1{
+    text-align: center;
+    color: green;
+}
+body{
+    background-color: bisque;
+    background-image: url("backkk.jpg");
+    text-align: center;
+    background-position: 35px;
+
+
+}
+input{
+    padding: 7px;
+    font-size: 25px;
+    width: 350px;
+    text-align: center;
+
+}
+.register{
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+
+}
